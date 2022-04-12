@@ -325,6 +325,7 @@ article h4 {
   font-size: 24px;
   padding: 22px 32px;
   background-color: var(--secondary);
+  border-radius: 10px;
 }
 
 .featured-section {
@@ -404,11 +405,12 @@ li .card-body p {
 }
 
 .arrow button {
-  padding: 24px 160px;
+  padding: 7px 11px;
   font-size: 24px;
   color: var(--text-color);
   background-color: var(--background);
   border: 1px solid var(--primary);
+  border-radius: 10px;
 }
 
 .arrow button i {
@@ -479,12 +481,12 @@ footer .logo img {
   cursor: pointer;
 }
 
-footer .created {
+footer .copyright {
   width: 40%;
   margin: 1rem;
 }
 
-footer .created p {
+footer .copyright p {
   color: var(--text-color);
   text-align: left;
   font-size: 14px;
@@ -635,10 +637,6 @@ footer .created p {
     grid-auto-rows: 250px;
   }
 
-  .sports-section button {
-    display: none;
-  }
-
   .main-program li:hover {
     border: 3px solid var(--primary);
     cursor: pointer;
@@ -666,10 +664,14 @@ footer .created p {
     grid-gap: 20px;
   }
 
-  footer .created p {
+  footer .copyright p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
+  }
+
+  .game-btn {
+    display: none;
   }
 }
 
@@ -682,16 +684,16 @@ footer .created p {
     text-align: center;
     grid-auto-rows: 250px;
   }
-
-  .sports-section button {
-    display: none;
-  }
-
+  
   .sports-section a {
     display: block;
     color: var(--primary);
     font-size: 18px;
     margin: 20px auto;
+  }
+
+  .games-btn {
+    display: block;
   }
 }
 
@@ -733,10 +735,6 @@ footer .created p {
     width: 100%;
   }
 
-  .sports-section button {
-    display: none;
-  }
-
   .sports-section a {
     display: block;
     color: var(--primary);
@@ -747,5 +745,15 @@ footer .created p {
   .featured-section .games {
     max-width: 1040px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .games-btn {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .games-btn {
+    display: none;
   }
 }
