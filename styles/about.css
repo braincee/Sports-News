@@ -304,15 +304,12 @@ footer .logo img {
 }
 
 .sports-overview .logo {
-  width: 100%;
   max-width: 580px;
-  height: 240px;
   border: 2px solid var(--primary);
   padding: 15px 20px;
   margin: 20px auto;
   text-align: center;
   cursor: pointer;
-  background-color: #fff;
 }
 
 .sports-overview .logo img {

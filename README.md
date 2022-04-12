@@ -50,8 +50,8 @@ To get a local copy for this project and running follow these simple example ste
 ### Prerequisites
 
 - You need to have git installed in your computer
-- A text editor or terminal
-- A web brower to view output
+- A text editor or terminal(Visual Studio Code or Atom)
+- A web brower to view output(Google Chrome)
 
 ### Setup
 
