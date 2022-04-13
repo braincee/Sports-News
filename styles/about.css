@@ -196,7 +196,6 @@ ul {
   background-color: var(--primary);
   opacity: 0.9;
   margin: 0 auto;
-  text-align: center;
   background-image: linear-gradient(rgb(238 238 238 / 47.9%), rgb(235 235 235 / 52.1%)), url("../images/about-img.png");
   background-position: top center;
   background-size: cover;
@@ -204,22 +203,33 @@ ul {
 }
 
 .home-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--secondary);
 }
 
 .home-2 h2 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
   line-height: 52px;
   padding: 12px 0;
 }
 
 .home-2 h1 {
-  font-size: 38px;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 50px;
   font-weight: var(--weight);
   line-height: 60px;
   color: var(--seconderyColor);
   margin: 10px 0;
+  max-width: 50%;
+  background-image: url("../images/font.jpg");
+  background-size: cover;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 article h4 {

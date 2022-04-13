@@ -216,7 +216,7 @@ h2 {
 }
 
 .home-2 h2 {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
   line-height: 52px;
@@ -224,17 +224,16 @@ h2 {
 }
 
 .home-2 h1 {
-  font-size: 20px !important;
   font-family: 'COCOGOOSE', sans-serif;
   line-height: 60px;
   color: var(--seconderyColor);
   margin: 10px 0;
   background-image: url("../images/font.jpg");
   background-size: cover;
-  background-position: center center;
   background-clip: initial;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  max-width: 70%;
 }
 
 article h4 {
@@ -609,7 +608,6 @@ footer .copyright p {
   }
 
   .home-2 h2 {
-    font-size: 48px;
     font-weight: 500;
     line-height: 60px;
   }
@@ -684,7 +682,7 @@ footer .copyright p {
     text-align: center;
     grid-auto-rows: 250px;
   }
-  
+
   .sports-section a {
     display: block;
     color: var(--primary);

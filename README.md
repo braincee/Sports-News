@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# AFRICAN WOMEN SOFTWARE ENGINEERS
+# OLYMPICS GAMES 2022
 
 ## Description
 
@@ -9,8 +9,12 @@ OLYMPICS 2022 website is a major international multi-sport event held once every
 - This is the page view:
 
     Desktop version: 
+
+    ![Desktop](./images/desktop-version.png)
     
     Mobile Version:
+
+    ![Mobile](./images/mobile-version.png)
 
 > Learning Objectives
 
@@ -26,14 +30,15 @@ OLYMPICS 2022 website is a major international multi-sport event held once every
 - Use JavaScript events.
 - Use objects to store and access data.
 - Communicate technical concepts to other technical people.
-- Build the capstone project site.
+- Build the capstone project website.
 
 ## Built With
 
 - HTML
-- CSS (Flexbox and Grid)
+- CSS3 (Flexbox and Grid)
 - JavaScript
 - Git and GitHub
+- Visual Studio Code
 
 ## Live Demo
 
@@ -50,8 +55,8 @@ To get a local copy for this project and running follow these simple example ste
 ### Prerequisites
 
 - You need to have git installed in your computer
-- A text editor or terminal(Visual Studio Code or Atom)
-- A web brower to view output(Google Chrome)
+- A text editor or terminal (Visual Studio Code or Atom)
+- A web brower to view output (Google Chrome)
 
 ### Setup
 
@@ -74,8 +79,9 @@ For tracking linters errors locally you need to follow these steps:
 
   > npx stylelint "\*_/_.{css,scss}"
 
-  - And For tracking the linter errors in JavaScript file run:
-    > npx eslint .
+- And For tracking the linter errors in JavaScript file run:
+
+  > npx eslint .
 
 ### Deployment
 
