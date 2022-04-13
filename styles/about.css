@@ -426,10 +426,9 @@ footer .logo img {
 footer {
   width: 100%;
   justify-content: space-around;
-  text-align: center;
   padding: 3rem 0;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: var(--text-color);
 }
 
 footer .copyright {
@@ -438,8 +437,13 @@ footer .copyright {
 }
 
 footer .copyright p {
-  color: var(--text-color);
   text-align: left;
+}
+
+.para {
+  max-width: 40%;
+  margin-left: 70px;
+  padding-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
