@@ -46,7 +46,7 @@ OLYMPICS 2022 website is a major international multi-sport event held once every
 
 ## Zoom Video
 
-[Link Zoom]()
+[Link Zoom](https://www.loom.com/share/25ae4e2b6bbb45a38378e0bb06ba0313)
 
 ## Getting Started
 
