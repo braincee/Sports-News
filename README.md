@@ -42,7 +42,7 @@ OLYMPICS 2022 website is a major international multi-sport event held once every
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://braincee.github.io/Sports-News/)
 
 ## Zoom Video
 

@@ -210,7 +210,6 @@ ul {
 }
 
 .home-2 h2 {
-  font-size: 40px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
   line-height: 52px;
@@ -219,12 +218,12 @@ ul {
 
 .home-2 h1 {
   font-family: 'COCOGOOSE', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: var(--weight);
   line-height: 60px;
   color: var(--seconderyColor);
   margin: 10px 0;
-  max-width: 50%;
+  max-width: 90%;
   background-image: url("../images/font.jpg");
   background-size: cover;
   background-clip: initial;
