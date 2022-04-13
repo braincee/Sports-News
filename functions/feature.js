@@ -7,7 +7,7 @@ const olympics = [
       alt: 'olympics',
     },
     sport: 'Opening Ceremony',
-    about: 'Gloria Tumushabe is the Founder and an instructor at Afro Fem Coders.She\'s a UC Berkeley computer science Master student from Uganda.',
+    about: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const olympics = [
       alt: 'olympics',
     },
     sport: 'Olympics Channel',
-    about: 'Lavanya is lead Instructor at Afro Fem Coders, a Master\'s student in Data Science ar UC Berkeley, a coding instructor at the coder school Berkeley, and author of programming courses on LinkedIn Learning.',
+    about: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const olympics = [
       alt: 'olympics',
     },
     sport: 'Olympics Swimming',
-    about: 'Milak is considered the only swimmer with a chance at potentially spoiling things for Dressel, the heavy favorite.',
+    about: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',
   },
   {
     id: 4,
