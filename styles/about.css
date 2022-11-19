@@ -292,19 +292,6 @@ article h4 {
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-footer .logo {
-  height: 7.5rem;
-  width: 7rem;
-  margin: 0 1rem;
-  flex-shrink: 0;
-}
-
-footer .logo img {
-  width: 100%;
-  height: auto;
-  color: var(--text-color);
-  cursor: pointer;
-}
 
 .high-image li img {
   width: 100%;
@@ -421,23 +408,6 @@ footer .logo img {
   width: 100%;
   margin: 0 auto;
   flex-wrap: wrap;
-}
-
-footer {
-  width: 100%;
-  justify-content: space-around;
-  padding: 3rem 0;
-  margin: 0 auto;
-  background-color: var(--text-color);
-}
-
-footer .copyright {
-  width: 70%;
-  margin: 1rem;
-}
-
-footer .copyright p {
-  text-align: left;
 }
 
 .para {
@@ -589,7 +559,36 @@ footer .copyright p {
     font-weight: var(--weight);
   }
 
-  footer .copyright p {
+  #about-footer .copyright p {
     text-align: right;
   }
 }
+
+#about-footer {
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#about-footer .about-logo {
+  height: 8rem;
+  width: 7rem;
+  margin: 0 2rem;
+  flex-shrink: 0;
+}
+
+#about-footer .about-logo img {
+  width: 100%;
+  height: auto;
+}
+
+#about-footer .about-copyright {
+  width: 40%;
+  margin: 1rem;
+}
+
+
+
